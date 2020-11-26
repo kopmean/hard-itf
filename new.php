@@ -35,13 +35,13 @@ if (mysqli_query($conn))
 {
     die('Failed to connect to MySQL: '.mysqli_connect_error());
 }
-$res = mysqli_query($conn, 'SELECT * FROM guestbook');
+$res = mysqli_query($conn, 'SELECT * FROM abc');
 ?>
 <table width="600" border="1">
   <tr>
-    <th width="100"> <div align="center">Name</div></th>
-    <th width="100"> <div align="center">Comment </div></th>
-    <th width="150"> <div align="center">Link </div></th>
+    <th width="100"> <div align="center">A</div></th>
+    <th width="100"> <div align="center">B </div></th>
+    <th width="100"> <div align="center">C </div></th>
   </tr>
 <?php
 while($Result = mysqli_fetch_array($res))
