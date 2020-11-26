@@ -13,7 +13,7 @@ $B = $_POST['B'];
 $C = $A+$B;
 
 
-$sql = "INSERT INTO guestbook (name , comment , link) VALUES ('$name', '$comment', '$link')";
+$sql = "INSERT INTO abc (A , B , C) VALUES ('$A', '$B', '$C')";
 
 
 if (mysqli_query($conn, $sql)) {
