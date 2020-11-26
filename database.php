@@ -8,8 +8,8 @@ if (mysqli_connect_errno($conn))
 }
 
 
-$A = $_POST['A'];
-$B = $_POST['B'];
+$A = $_GET['A'];
+$B = $_GET['B'];
 $C = $A+$B;
 
 
